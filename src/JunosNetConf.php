@@ -98,7 +98,7 @@ class JunosNetConf
      * @param array $customAttributes
      * @return \Lamoni\NetConf\NetConfMessage\NetConfMessageRecv\NetConfMessageRecvRPC
      */
-    public function loadConfigurationRaw($configData="", $configNode="", array $customAttributes)
+    public function loadConfigurationRaw($configData="", $configNode="", $customAttributes = [])
     {
         if ($configData !== "" && $configNode !== "") {
 
