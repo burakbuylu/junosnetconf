@@ -1,3 +1,19 @@
+Fix composer.json:
+```{
+    "require": {
+        "lamoni/netconf": "dev-master",
+        "lamoni/junosnetconf": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/burakbuylu/junosnetconf.git"
+        }
+    ]
+}```
+
+
+
 Junos NETCONF XML Management Protocol
 -------------------------------------
 This is a Junos-specific NETCONF implementation.  It attempts to adhere to Juniper's proprietary NETCONF extension
