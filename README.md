@@ -1,5 +1,6 @@
 Fix composer.json:
-```{
+```
+{
     "require": {
         "lamoni/netconf": "dev-master",
         "lamoni/junosnetconf": "dev-master"
