@@ -2,7 +2,6 @@ Fix composer.json:
 ```
 {
     "require": {
-        "lamoni/netconf": "dev-master",
         "lamoni/junosnetconf": "dev-master"
     },
     "repositories": [
@@ -13,6 +12,8 @@ Fix composer.json:
     ]
 }
 ```
+
+enter this line to your composer.json after run: composer update
 
 
 
